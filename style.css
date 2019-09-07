@@ -10,18 +10,49 @@ main{
 
 div {
   height: 50px;
-  margin-bottom: 10px;
+  margin-bottom: 44px;
+  text-indent: 20px;
 }
-.section-banner{
-height: 400px;
-width: 480px;
-background: black;
-padding: 10px;
-color: gray;
-float: left;
-text-align: center;
-margin: auto;
-margin-top: 10px;
+
+.listLeft {
+  display: inline;
+  float: left;
+  margin-left: 80px;
+  margin-top: 37px;
+  line-height: 31px;
+  font-size: 20px;
+}
+
+.listRight {
+  display: inline;
+  float: right;
+  margin-top: -248px;
+  line-height: 31px;
+  font-size: 20px;
+  margin-right: 240px;
+}
+.low-banner{
+    height: 400px;
+    background: white;
+    color: gray;
+    text-align: center;
+    margin: auto;
+    margin-right: 126px;
+}
+
+.vanessa{
+  background: white;
+  color: gray;
+  text-align: left;
+  margin: auto;
+  margin-left: 88px;
+  margin-bottom: -71px;
+}
+
+.smallLogo{
+  background: white;
+  text-align: center;
+  margin-top: -287px;
 }
 
 .featured{
@@ -34,13 +65,28 @@ margin-top: 10px;
 }
 
 .lorum{
-  width: 1400px;
+  width: 90%;
   background-color: white;
-  text-align: center;
+  text-align: left;
   color: black;
   position: relative;
 }
 
+.cream{
+  width: 90%;
+  background-color: white;
+  text-align: left;
+  color: black;
+  position: relative;
+}
+
+.mixing{
+  width: 90%;
+  background-color: white;
+  text-align: left;
+  color: black;
+  position: relative;
+}
 
 .action{
   float: right;
@@ -53,6 +99,86 @@ margin-top: 10px;
   margin-right: 256px;
   text-align: center;
 }
+
+#main-navigation, #navigation2, #navigation3, #navigation4{
+  display: inline-block;
+  margin: 50px;
+  background: gray;
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  line-height: 30px;
+  padding-left: 5px;
+}
+
+#navigation2{
+   float: right;
+}
+
+#navigation3{
+   float: left;
+}
+
+#navigation4{
+   float: right;
+}
+
+main img{
+  margin-bottom: 10px;
+}
+
+#sub-banner1, #sub-banner2, #sub-banner3 {
+  height: 375px;
+  border: 2px solid black;
+  width: 289px;
+  background: black;
+  padding: 10px;
+  color: gray;
+  overflow: auto;
+}
+
+footer {
+  background:white;
+  height: 30px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.img-container{
+  height: 70%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#outter{
+    width: 1000px;
+    height: 300px;
+    position: relative;
+    }
+
+ #image {
+  width: 1000px;
+  height: 300px;
+  position: absolute;
+    }
+    
+    #contentOutter {
+    width: 1000px;
+    height: 300px;
+    position: absolute;
+    }
+    
+    #content {
+    margin-left: 100px;
+    width: 900px;
+    float: right;
+    }
+
+    input[type=checkbox]:checked + label.strikethrough{
+      text-decoration: line-through;
+    }
+  
 
 /* BRETT commented out this navigation stuff */
 /* #main-navigation, #navigation2, #navigation3, #navigation4{
