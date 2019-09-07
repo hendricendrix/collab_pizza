@@ -32,12 +32,12 @@ div {
   margin-right: 240px;
 }
 .low-banner{
-    height: 400px;
-    background: white;
-    color: gray;
-    text-align: center;
-    margin: auto;
-    margin-right: 126px;
+  height: 400px;
+  background: white;
+  color: gray;
+  text-align: center;
+  margin: auto;
+  margin-right: 126px;
 }
 
 .vanessa{
@@ -65,27 +65,12 @@ div {
 }
 
 .lorum{
-  width: 90%;
+  width: 960px;
   background-color: white;
   text-align: left;
   color: black;
   position: relative;
-}
-
-.cream{
-  width: 90%;
-  background-color: white;
-  text-align: left;
-  color: black;
-  position: relative;
-}
-
-.mixing{
-  width: 90%;
-  background-color: white;
-  text-align: left;
-  color: black;
-  position: relative;
+  text-indent: 30px;
 }
 
 .action{
@@ -99,29 +84,6 @@ div {
   margin-right: 256px;
   text-align: center;
 }
-
-/* #main-navigation, #navigation2, #navigation3, #navigation4{
-  display: inline-block;
-  margin: 50px;
-  background: gray;
-  height: 30px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  line-height: 30px;
-  padding-left: 5px;
-}
-
-#navigation2{
-   float: right;
-}
-
-#navigation3{
-   float: left;
-}
-
-#navigation4{
-   float: right;
-} */
 
 main img{
   margin-bottom: 10px;
@@ -137,13 +99,6 @@ main img{
   overflow: auto;
 }
 
-/* footer {
-  background:white;
-  height: 30px;
-  margin-top: 20px;
-  padding: 10px;
-} */
-
 .img-container{
   height: 70%;
   background-position: center;
@@ -152,35 +107,41 @@ main img{
 }
 
 #outter{
-    width: 1000px;
-    height: 300px;
-    position: relative;
-    }
-
- #image {
   width: 1000px;
   height: 300px;
-  position: absolute;
-    }
-    
-    #contentOutter {
-    width: 1000px;
-    height: 300px;
-    position: absolute;
-    }
-    
-    #content {
-    margin-left: 100px;
-    width: 900px;
-    float: right;
-    }
+  position: relative;
+}
 
-    input[type=checkbox]:checked + label.strikethrough{
-      text-decoration: line-through;
-    }
+#chopped{
+  margin-left: 45px;
+}
+
+#image {
+  width: 960px;
+  height: auto;
+  position: absolute;
+  margin-left: -20px;
+}
+
+#contentOutter {
+  width: 960px;
+  position: absolute;
+}
+
+#content {
+  margin-left: 100px;
+  width: 900px;
+  float: right;
+}
+
+input[type=checkbox]:checked + label.strikethrough{
+  text-decoration: line-through;
+}
 
 main img{
   margin-bottom: 10px;
+  width: 960px;
+  height: auto;
 }
 
 #sub-banner1, #sub-banner2, #sub-banner3 {
@@ -209,7 +170,7 @@ main img{
 
 /* BRETT'S CHANGES */
 footer{
-  margin-top: 320px;
+  margin-top: 340px;
 }
 
 .pageBreak{
@@ -221,7 +182,7 @@ footer{
 }
 
 #navContainer{
-  width: 960px;
+  /* width: 960px; */
   display: inline;
 }
 
@@ -238,13 +199,11 @@ footer{
 #footerBio{
   width: 960px;
   height: 150px;
-  /* margin: auto auto 30px auto; */
-  /* display: inline; */
 }
 
 #bioPic{
   float: left;
-  /* margin: auto auto 30px auto; */
+  margin: auto 30px auto auto;
   width: 100px;
   height: auto;
   border-radius: 50%;
@@ -252,10 +211,32 @@ footer{
 
 #shareButton{
   float: right;
-  width: 150px;
   height: 60px;
+  width: auto;
   background-color: black;
-  margin-bottom: -30px;
+  margin-top: -70px;
+}
+
+#bottom{
+  text-align: center;
+  font-size: 10px;
+  color: gray;
+}
+
+#titleBar{
+  width: 960px;
+  style: inline;
+}
+
+#title{
+  float: left;
+  width: 900px;
+}
+
+#print{
+  float: right;
+  width: 60px;
+  margin-top: 45px;
 }
 
 /* END MY CHANGES */

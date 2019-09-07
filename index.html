@@ -12,14 +12,14 @@
     <section id="navContainer">
       <img src="img/logo_delicious.png"/>
       <div id="socialMedia">
-        <a href="https://google.com"><img src="img/fb-icon.png" alt="Facbook" /></a>
-        <a href="https://google.com"><img src="img/twit-icon.png" alt="Twitter" /></a>
-        <a href="https://google.com"><img src="img/gp-icon.png" alt="Google Plus" /></a>
-        <a href="https://google.com"><img src="img/insta-icon.png" alt="Instagram" /></a>
-        <a href="https://google.com"><img src="img/flic-icon.png" alt="Flickr" /></a>
-        <div id="navDivide"><a href="https://google.com"><img src="img/pint-icon.png" alt="Pinterest" /></a></div>
-        <a href="https://google.com"><img src="img/rss-icon.png" alt="RSS" /></a>
-        <a href="https://google.com"><img src="img/mail-icon.png" alt="Email" /></a>
+        <a href="https://google.com" target="_blank"><img src="img/fb-icon.png" alt="Facbook" /></a>
+        <a href="https://google.com" target="_blank"><img src="img/twit-icon.png" alt="Twitter" /></a>
+        <a href="https://google.com" target="_blank"><img src="img/gp-icon.png" alt="Google Plus" /></a>
+        <a href="https://google.com" target="_blank"><img src="img/insta-icon.png" alt="Instagram" /></a>
+        <a href="https://google.com" target="_blank"><img src="img/flic-icon.png" alt="Flickr" /></a>
+        <div id="navDivide"><a href="https://google.com" target="_blank"><img src="img/pint-icon.png" alt="Pinterest" /></a></div>
+        <a href="https://google.com" target="_blank"><img src="img/rss-icon.png" alt="RSS" /></a>
+        <a href="https://google.com" target="_blank"><img src="img/mail-icon.png" alt="Email" /></a>
       </div>
     </section>
 
@@ -28,13 +28,18 @@
   </header>
 
   <main>
+    <section id="titleBar">
+      <img id="title" src="img/chocolate-pizza.png" />
+      <img id="print" src="img/print.png" />
+    </section>
+
     <img src="https://github.com/codefellows/seattle-201n15/blob/master/class-10/lab-chocolate-pizza/choco-pizza.png?raw=true"/>
 
     <p class="lorum">For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
     
-    <p class="cream">Ice cream: in a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled.</p>
+    <p class="lorum">Ice cream: in a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled.</p>
       
-    <p class="mixing">Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass Tupperware. Freeze for at least two hours before serving..</p>
+    <p class="lorum">Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass Tupperware. Freeze for at least two hours before serving..</p>
 
     <!-- <div id="outter"></div> -->
         <div id="image"><img src="https://github.com/codefellows/seattle-201n15/blob/master/class-10/lab-chocolate-pizza/list-bg.png?raw=true"/></div>
@@ -98,8 +103,8 @@
     
            <div class="checkbox">
             <input type="checkbox" name="packersOff" value="1"/> 
-            <label class="strikethrough">1 cup honey roasted pecans, roughly<br> chopped</label>
-            </div>
+            <label class="strikethrough">1 cup honey roasted pecans, roughly<br><span id="chopped">chopped</span></label>
+          </div>
         </div>
   </main>
 
@@ -108,12 +113,11 @@
     <section id="footerBio">
       <img id="bioPic" src="img/van-pic.png" />
       <h2>Vanessa Stevenson</h2>
-      <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
-      <div id="shareButton">
-        Share Recipe
-      </div>
+      <p id="bioText">Food enthusiast, photography fan. Add a pinch of raw foodism and that's<br />pretty much who I am.</p>
+      <img id="shareButton" src="img/share.png" />
     </section>
-    <hr />
+    <img src="img/small-logo-wide.png" style="width:960px;height:auto" />
+    <p id="bottom">Delicious Ⓒ 2013 - All Rights Reserved<br />Proudly Published with Ghost.</p>
   </footer>
               
 </body>
