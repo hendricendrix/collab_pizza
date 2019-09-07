@@ -100,7 +100,7 @@ div {
   text-align: center;
 }
 
-#main-navigation, #navigation2, #navigation3, #navigation4{
+/* #main-navigation, #navigation2, #navigation3, #navigation4{
   display: inline-block;
   margin: 50px;
   background: gray;
@@ -121,7 +121,7 @@ div {
 
 #navigation4{
    float: right;
-}
+} */
 
 main img{
   margin-bottom: 10px;
@@ -137,12 +137,12 @@ main img{
   overflow: auto;
 }
 
-footer {
+/* footer {
   background:white;
   height: 30px;
   margin-top: 20px;
   padding: 10px;
-}
+} */
 
 .img-container{
   height: 70%;
@@ -207,3 +207,55 @@ main img{
 }
 
 
+/* BRETT'S CHANGES */
+footer{
+  margin-top: 320px;
+}
+
+.pageBreak{
+  width: 960px;
+  height: 12px;
+  /* margin-bottom: 2em; */
+  background-repeat: repeat-x;
+  background: url(https://raw.githubusercontent.com/codefellows/seattle-201n15/master/class-10/lab-chocolate-pizza/hr-img.png);
+}
+
+#navContainer{
+  width: 960px;
+  display: inline;
+}
+
+#socialMedia{
+  /* display: inline; */
+  float: right;
+}
+
+#navDivide{
+  display: inline;
+  margin-right: 12px;
+}
+
+#footerBio{
+  width: 960px;
+  height: 150px;
+  /* margin: auto auto 30px auto; */
+  /* display: inline; */
+}
+
+#bioPic{
+  float: left;
+  /* margin: auto auto 30px auto; */
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
+
+#shareButton{
+  float: right;
+  width: 150px;
+  height: 60px;
+  background-color: black;
+  margin-bottom: -30px;
+}
+
+/* END MY CHANGES */
