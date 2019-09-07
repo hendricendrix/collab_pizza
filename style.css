@@ -178,31 +178,6 @@ footer {
     input[type=checkbox]:checked + label.strikethrough{
       text-decoration: line-through;
     }
-  
-
-/* BRETT commented out this navigation stuff */
-/* #main-navigation, #navigation2, #navigation3, #navigation4{
-  display: inline-block;
-  margin: 50px;
-  background: gray;
-  height: 30px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  line-height: 30px;
-  padding-left: 5px;
-}
-
-#navigation2{
-   float: right;
-}
-
-#navigation3{
-   float: left;
-}
-
-#navigation4{
-   float: right;
-} */
 
 main img{
   margin-bottom: 10px;
@@ -231,60 +206,4 @@ main img{
   float: left;
 }
 
-/* BRETT commented out this footer section */
-/* footer {
-  background: gray;
-  height: 30px;
-  margin-top: 20px;
-  padding: 10px;
-} */
 
-
-/* BRETT'S CHANGES */
-
-.pageBreak{
-  width: 960px;
-  height: 12px;
-  /* margin-bottom: 2em; */
-  background-repeat: repeat-x;
-  background: url(https://raw.githubusercontent.com/codefellows/seattle-201n15/master/class-10/lab-chocolate-pizza/hr-img.png);
-}
-
-#navContainer{
-  width: 960px;
-  display: inline;
-}
-
-#socialMedia{
-  display: inline;
-  float: right;
-}
-
-#navDivide{
-  display: inline;
-  margin-right: 12px;
-}
-
-#footerBio{
-  width: 960px;
-  margin-bottom: 20px;
-  /* display: inline; */
-}
-
-#bioPic{
-  float: left;
-  /* margin: 30px 30px 30px auto; */
-  width: 100px;
-  height: auto;
-  border-radius: 50%;
-}
-
-#shareButton{
-  float: right;
-  width: 150px;
-  height: 60px;
-  background-color: black;
-  border-bottom: 60px;
-}
-
-/* END MY CHANGES */
